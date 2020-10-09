@@ -7,6 +7,7 @@ public class SingResponsibility1 {
         vehicle.run("小汽车");
         vehicle.run("飞机");
         //单一职责原则
+        //里氏替换原则
     }
 }
 //交通工具类
