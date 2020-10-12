@@ -10,6 +10,7 @@ public class SingResponsibility1 {
         //里氏替换原则
         //接口隔离原则
         //依赖倒置原则
+        //装饰者模式
     }
 }
 //交通工具类
