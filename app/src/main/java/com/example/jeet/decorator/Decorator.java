@@ -15,6 +15,7 @@ public class Decorator extends Drink {
 
     @Override
     public String getDes() {
-        return super.des + " " +super.getPrice() +"&&" + obj.getDes();
+        //修改了代码
+        return super.des + " " + super.getPrice() +"&&" + obj.getDes();
     }
 }
