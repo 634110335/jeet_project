@@ -15,6 +15,7 @@ public abstract class BaseActivity<P extends BasePresent,CONTRACT> extends AppCo
         initData();
         //init
         //in
+        //好的
         mPresenter = getPresenter();
         mPresenter.bindView(this);
     }
