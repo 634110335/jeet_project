@@ -1,10 +1,8 @@
 package com.example.jeet.mvp;
 
 import android.os.Bundle;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 public abstract class BaseActivity<P extends BasePresent,CONTRACT> extends AppCompatActivity {
     protected P mPresenter;
     @Override
